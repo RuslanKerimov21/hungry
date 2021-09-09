@@ -1,0 +1,241 @@
+@media(max-width: 1050px){
+    .header-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .content-wrap__left{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .header-content__button {
+       width: 400px;
+    }
+    .company-items {
+        flex-wrap: wrap;
+    }
+    .company-items img{
+        margin-bottom: 25px;
+    }
+    .features-content {
+        flex-wrap: wrap;
+    }
+    .news__items {
+       flex-wrap: wrap;
+    }
+    .news-item {
+        max-width: 450px;
+        margin-bottom: 15px;
+    }
+    .header-content__button {
+        display: unset;
+    }
+    .header-content__button a{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .header-content__button a:last-child{
+        margin-bottom: 0;
+    }
+    .footer-logo__and-description{
+        margin-bottom: 30px;
+    }
+    .list-content-wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 886px){
+    .title {
+        text-align: center;
+    }
+    .features-content {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .wrap-offer{
+        margin-bottom: 30px;
+    }
+    .features-content .content-wrap .h3 {
+       text-align: center;
+    }
+    .news-item {
+        max-width: 100%;
+    }
+    .update-news {
+        padding: 70px 0;
+    }
+    .header-content__button a i {
+        font-size: 20px;
+    }
+}
+@media(max-width: 750px){
+    
+}
+@media(max-width: 762px){
+    .button-nav{
+        height: 22px;
+        display: block;
+    }
+    .list{
+        display: none;
+    }
+    .button-nav img{
+        height: 100%;
+    }
+    .header-inner {
+        height: 60px;
+    }
+    .header-inner .link{
+        display: none;
+    }
+    .header-content {
+        flex-wrap: wrap;
+        padding: 40px 0;
+    }
+    .wrap-offer img {
+        width: 290px;
+    }
+    .features-content {
+        justify-content: center;
+    }
+    .header-content__button a{
+        min-width: 120px;
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+    .header-content__button a img {
+        width: 22px;
+        height: 22px;
+        margin-right: 5px;   
+        margin-bottom: 5px;
+    }
+    .header-content__button {
+        width: 255px;
+    }
+    .icon-box{
+        display: none;
+    }
+    .icon-text p {
+        font-size: 13px;
+    }
+    .icon-text p:last-child {
+       font-size: 17px;
+    }
+    .features-content .content-wrap .h3 {
+        text-align: center;
+    }
+    .revievs-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .revievs-item {
+        margin-bottom: 40px;
+    }
+    .offer-content {
+        flex-wrap: wrap;
+    }
+    .offer-content {
+        flex-direction: column;
+    }
+    .offer-content .h3 {
+        margin-bottom: 15px;
+    }
+    .h3{
+        font-size: 30px;
+    }
+    .company .h3 {
+        text-align: center;
+    }
+    .offer {
+        padding: 67px 0;
+    }
+    .footer-logo__and-description {
+        margin-bottom: 15px;
+    }
+    .footer{
+        padding: 50px 0;
+    }
+    .footer-inner{
+        flex-direction: column;
+    }
+}
+@media(max-width: 450px){
+    .list-content-wrapper{
+        display: none;
+    }
+    .list-content-accordion{
+        display: block;
+    }
+    .content-wrap img {
+        width: 290px;
+    }
+    .header-content__button{
+        width: 100%;
+    }
+    .content-wrap h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .company-items {
+        justify-content: center;
+    }
+    .title {
+        text-align: center;
+    }
+    .advantages-item {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .advantages-item img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .content-wrap img {
+        width: 240px;
+    }
+    .features-content {
+        padding: 49px 0;
+    }
+    .offer-content .h3{
+        font-size: 25px;
+    }
+    .footer-list{
+        padding-top: 15px;
+        display: none;
+    }
+    .active-none{
+        padding: 0;
+        display: block;
+    }
+    .footer-list li:last-child{
+        margin-bottom: 0;
+    }
+    .footer-list__content{
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(100, 100, 100, 0.50);
+        cursor: pointer;
+    }
+    .footer-list__content:last-child{
+        padding: 20px 0;
+        border: none;
+    }
+    .h4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .h4 i{
+        display: block;
+    }
+    .h4-last{
+        margin-bottom: 28px;
+    }
+    .form-footer form {
+        width: 100%;
+    }
+}
